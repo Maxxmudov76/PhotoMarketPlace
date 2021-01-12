@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo MarketPlace</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fontawesome/css/all.css">
+    <script>
+    function arxafon(x)
+    {
+       document.getElementById(x).style.background="#36c";
+    }
+    function deyis(y)
+    {
+        document.getElementById(y).style.background="#4da6ff";
+    }
+    function shopp1(z)
+    {
+        document.getElementById(z).innerHTML="";
+    }
+    function shopp2()
+    {
+        document.getElementById("Shopping").innerHTML="Shopping";
+    }
+    </script>
+</head>
+<body background="photos/bg.gif">
+    <div class="container">
+    <nav>
+      <div class="header">Photo MarketPlace Home Page</div>
+      <div class="menu">
+        <ul>
+            <li><a href="#" id="Home">Home</a></li>
+            <li><a href="#" id="Landing">Landscape</a>
+                <ul>
+                    <li><a href="" id="beach" onmouseover="arxafon(this.id)" onmouseout="deyis(this.id)" style="color: #fff; background-color: #4da6ff;">Beach</a></li>
+                    <li><a href="" id="forest" onmouseover="arxafon(this.id)" onmouseout="deyis(this.id)" style="color: #fff; background-color: #4da6ff;">Forest</a></li>
+                    <li><a href="" id="mountain" onmouseover="arxafon(this.id)" onmouseout="deyis(this.id)" style="color: #fff; background-color: #4da6ff;">Mountain</a></li>
+                    <li><a href="" id="city" onmouseover="arxafon(this.id)" onmouseout="deyis(this.id)" style="color: #fff; background-color: #4da6ff;">City</a></li>
+                </ul>
+            </li>
+            <li><a href="#" id="Seller">Seller</a></li>
+            <li><a href="#" id="About">About</a></li>
+            <li><a href="#" id="Categories">Categories</a>
+                <ul>
+                    <li><a href="" id="loves" onmouseover="arxafon(this.id)" onmouseout="deyis(this.id)" style="color: #fff; background-color: #4da6ff;">Love Story</a></li>
+                    <li><a href="" id="graduation" onmouseover="arxafon(this.id)" onmouseout="deyis(this.id)" style="color: #fff; background-color: #4da6ff;">Graduation</a></li>
+                    <li><a href="" id="babys" onmouseover="arxafon(this.id)" onmouseout="deyis(this.id)" style="color: #fff; background-color: #4da6ff;">Baby Story</a></li>
+                    <li><a href="" id="other" onmouseover="arxafon(this.id)" onmouseout="deyis(this.id)" style="color: #fff; background-color: #4da6ff;">Other</a></li>
+                </ul>
+            </li>
+            <li><a href="#" id="Contact">Contact</a></li>
+            <li><a href="#" id="Shopping" onmouseover="shopp1(this.id)" onmouseout="shopp2()">Shopping</a></li>
+            <li><a href="#" id="Login">Login</a></li>
+        </ul>
+    </div>
+    </nav>
+    <main>
+        <div class="orta">
+            <div class="orta1">Photo MarketPlace</div>
+            <div class="orta2">Find the perfect photos for any project</div>
+            <div class="orta3"><form action="">
+                <input type="text" placeholder="Search photos, videos or more..." name="" id=""><button>Search</button>
+            </form></div>
+        </div>
+    </main>
+    <footer>
+        <div class="writing1"> Find the perfect plan for you or your business.Plans&Pricing</div>
+        <div class="writing2"><a href="#" id="Sitemap">Sitemap</a> &nbsp;|&nbsp; <a href="#" id="Privacy">Privacy Policy</a> &nbsp;|&nbsp;<a href="" id="Photographers"> Photographers</a>
+        &nbsp;|&nbsp; <a href=""><i class="fab fa-facebook-f"></i></a>&nbsp;|&nbsp;<a href=""><i class="fab fa-instagram"></i></a>&nbsp;|&nbsp;<a href=""><i class="fab fa-twitter"></i></a></div>
+        <div class="writing3">&copy;2020 <mark>ASOIU</mark> BA. System Enginering. Created by<span> Mahmudov Şahin</span> </div>
+    </footer>
+    </div>
+</body>
+</html>
